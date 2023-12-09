@@ -11,11 +11,12 @@ mod day_5;
 mod day_6;
 mod day_7;
 mod day_8;
+mod day_9;
 mod Example_reddit;
 
 fn main() {
     // Initialize the logger
-    env_logger::builder().filter_level(log::LevelFilter::Info).init();
+    env_logger::builder().filter_level(log::LevelFilter::Debug).init();
 
     // day_1::day_1_1::run();
     // day_1::day_1_2::run();
@@ -39,7 +40,10 @@ fn main() {
     // day_7::day_7_2::run();
 
     // day_8::day_8_1::run();
-    day_8::day_8_2::run();
+    // day_8::day_8_2::run();
+
+    // day_9::day_9_1::run();
+    day_9::day_9_2::run();
 
     // let input = load_txt::load_txt_file("src/day_5/data_example.txt");
     // let input_parse = parse_input(&input);

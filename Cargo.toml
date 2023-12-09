@@ -10,3 +10,4 @@ log = { version = "0.4.20", features = [] }
 env_logger = { version = "0.10.1", features = [] }
 regex = "1.10.2"
 num-integer = "0.1.45"
+difference = "2.0.0"
