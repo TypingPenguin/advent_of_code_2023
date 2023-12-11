@@ -13,6 +13,7 @@ mod day_7;
 mod day_8;
 mod day_9;
 mod day_10;
+mod day_11;
 mod Example_reddit;
 
 fn main() {
@@ -47,8 +48,10 @@ fn main() {
     // day_9::day_9_2::run();
 
     // day_10::day_10_1::run();
-    day_10::day_10_2::run();
+    // day_10::day_10_2::run();
 
+    // day_11::day_11_1::run();
+    day_11::day_11_2::run();
 
     // let input = load_txt::load_txt_file("src/day_5/data_example.txt");
     // let input_parse = parse_input(&input);
